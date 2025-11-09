@@ -23,7 +23,7 @@ int main() {
 	if (hour < 12) {
 		printf("Good morning! It is currently %s", asctime(ptr)); // If hour variable count is lower than 12, it is morning
 	}
-	else if (hour > 12) { // 
+	else if (hour > 18) { // 
 		printf("Good evening! It is currently %s", asctime(ptr)); // If hour variable count is higher than 18, it is evening
 	}
 	else {
